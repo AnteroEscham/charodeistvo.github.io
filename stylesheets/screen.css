@@ -574,7 +574,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   /* line 578, ../sass/screen.scss */
   .content__article-img {
     display: block;
-    width: 40%;
+    width: 100%;
     margin: 0px auto;
     float: none;
   }
