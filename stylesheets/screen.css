@@ -457,7 +457,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 /* line 446, ../sass/screen.scss */
 .footer__up {
-  display: none;
   width: 45px;
   height: 45px;
   margin: 10px auto;
@@ -512,46 +511,67 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   /* line 519, ../sass/screen.scss */
   .header__nav-list {
     display: none;
+    position: absolute;
+    right: 0;
+    top: 65px;
+    background-color: #000;
   }
-  /* line 521, ../sass/screen.scss */
+  /* line 525, ../sass/screen.scss */
   .header__nav-list-item {
     display: block;
+    float: none;
+  }
+  /* line 528, ../sass/screen.scss */
+  .header__nav-list-item-link {
+    padding: 10px 15px;
+  }
+  /* line 532, ../sass/screen.scss */
+  .header__nav-list-item:hover {
+    box-shadow: none;
   }
 
-  /* line 528, ../sass/screen.scss */
+  /* line 540, ../sass/screen.scss */
+  .header__nav-inner-list {
+    display: block;
+    position: static;
+    border-left: none;
+    border-right: none;
+  }
+
+  /* line 549, ../sass/screen.scss */
   .header__nav-icon {
     display: block;
   }
 
-  /* line 533, ../sass/screen.scss */
+  /* line 554, ../sass/screen.scss */
   .content {
     width: 100%;
     float: none;
   }
 
-  /* line 538, ../sass/screen.scss */
+  /* line 559, ../sass/screen.scss */
   .search {
     width: 100%;
     float: none;
   }
 
-  /* line 543, ../sass/screen.scss */
+  /* line 564, ../sass/screen.scss */
   .sidebar {
     width: 100%;
     float: none;
   }
 
-  /* line 548, ../sass/screen.scss */
+  /* line 569, ../sass/screen.scss */
   .footer__up {
     width: 35px;
   }
 }
 @media screen and (max-width: 680px) {
-  /* line 555, ../sass/screen.scss */
+  /* line 576, ../sass/screen.scss */
   .content__article {
     padding: 5%;
   }
-  /* line 557, ../sass/screen.scss */
+  /* line 578, ../sass/screen.scss */
   .content__article-img {
     display: block;
     width: 40%;
@@ -560,7 +580,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   }
 }
 @media screen and (max-width: 340px) {
-  /* line 573, ../sass/screen.scss */
+  /* line 594, ../sass/screen.scss */
   .content__article-img {
     display: block;
     width: 90%;
